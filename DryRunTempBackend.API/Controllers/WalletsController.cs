@@ -8,7 +8,7 @@ namespace DryRunTempBackend.API.Controllers
     [Route("api/Wallets")]
     public class WalletsController : Controller
     {
-        private readonly FirebaseHelper _firebaseHelper = new FirebaseHelper("wGtniF0kWu56G7wxjOrPhhG3caBTn9FqWbsYDIwS", "https://tykn-e5043.firebaseio.com");
+        private readonly FirebaseHelper _firebaseHelper = new FirebaseHelper("", "");
 
         [HttpGet]
         public async Task<ObjectResult> GetWallet(string userPublicKey)

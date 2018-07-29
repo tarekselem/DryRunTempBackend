@@ -7,7 +7,7 @@ namespace DryRunTempBackend.API.Controllers
     [Route("api/Transactions")]
     public class TransactionsController : Controller
     {
-        private readonly FirebaseHelper _firebaseHelper = new FirebaseHelper("wGtniF0kWu56G7wxjOrPhhG3caBTn9FqWbsYDIwS", "https://tykn-e5043.firebaseio.com");
+        private readonly FirebaseHelper _firebaseHelper = new FirebaseHelper("", "");
 
         [HttpPost]
         public async Task<ObjectResult> PostWallet([FromBody] Helpers.Transaction transaction)

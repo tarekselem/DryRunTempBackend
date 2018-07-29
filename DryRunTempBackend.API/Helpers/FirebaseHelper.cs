@@ -11,8 +11,6 @@ namespace DryRunTempBackend.API.Helpers
         private readonly IFirebaseClient _client;
         public FirebaseHelper(string authSecret, string basePath)
         {
-            //https://tykn-e5043.firebaseio.com
-            //wGtniF0kWu56G7wxjOrPhhG3caBTn9FqWbsYDIwS
             var firebaseConfig = new FirebaseConfig { AuthSecret = authSecret, BasePath = basePath };
             _client = new FirebaseClient(firebaseConfig);
         }
