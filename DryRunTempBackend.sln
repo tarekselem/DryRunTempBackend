@@ -5,9 +5,9 @@ VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DryRunTempBackend.API", "DryRunTempBackend.API\DryRunTempBackend.API.csproj", "{0236DF46-884A-4ADD-8A8E-B5DAEE7E002B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DryRunTempBackend.Test", "DryRunTempBackend.Test\DryRunTempBackend.Test.csproj", "{5451FB0C-D524-49B3-ADD2-02F7A7A2D52F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DryRunTempBackend.Test", "DryRunTempBackend.Test\DryRunTempBackend.Test.csproj", "{5451FB0C-D524-49B3-ADD2-02F7A7A2D52F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DryRunTempBackend.BigChainDbProvider", "DryRunTempBackend.BigChainDbProvider\DryRunTempBackend.BigChainDbProvider.csproj", "{ECB97651-3C77-4743-9AA4-5BA8F6116A84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DryRunTempBackend.BigChainDbProvider", "DryRunTempBackend.BigChainDbProvider\DryRunTempBackend.BigChainDbProvider.csproj", "{ECB97651-3C77-4743-9AA4-5BA8F6116A84}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
