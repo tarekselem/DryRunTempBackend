@@ -9,8 +9,6 @@ namespace DryRunTempBackend.BigChainDbProvider
 
         public string GetTransaction(string transactionId)
         {
-            //TODO: remove hard coded value
-            transactionId = "4957744b3ac54434b8270f2c854cc1040228c82ea4e72d66d2887a4d3e30b317";
             return ExecuteGetRequestAsync("transactions/"+transactionId).Result;
         }
 
